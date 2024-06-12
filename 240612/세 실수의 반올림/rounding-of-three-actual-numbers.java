@@ -7,8 +7,8 @@ public class Main {
         double b = sc.nextDouble();
         double c = sc.nextDouble();
 
-        System.out.printf("%.3f",a);
-        System.out.printf("%.3f",b);
+        System.out.printf("%.3f\n",a);
+        System.out.printf("%.3f\n",b);
         System.out.printf("%.3f",c);
     }
 }

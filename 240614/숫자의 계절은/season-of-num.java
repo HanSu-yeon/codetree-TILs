@@ -6,7 +6,7 @@ public class Main {
         
         int m = sc.nextInt();
         //3~5월이 봄, 6~8월이 여름, 9~11월이 가을, 12~2월이 겨울
-        if((m<=1 || m<=2)||m=12){
+        if((m<=1 || m<=2)||m==12){
             System.out.println("Winter");
         }else if(m>=3 || m<=5){
             System.out.println("Spring");

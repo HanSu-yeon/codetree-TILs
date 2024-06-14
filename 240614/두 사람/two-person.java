@@ -11,7 +11,7 @@ public class Main {
         b_age = sc.nextInt();
         b_s = sc.next();
 
-        if((a_age>=19 || b_age>=19 ) && ("M".equals(a_s) || "M".equals(b_s))){
+        if((a_age>=19 || b_age>=19 ) || ("M".equals(a_s) || "M".equals(b_s))){
             System.out.println("1");
         }else{
             System.out.println("0");

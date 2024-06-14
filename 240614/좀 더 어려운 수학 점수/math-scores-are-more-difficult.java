@@ -10,14 +10,8 @@ public class Main {
         aeng = sc.nextInt();
         bmath = sc.nextInt();
         beng = sc.nextInt();
-        
-        if(amath == bmath){
-            if(aeng > beng){
-                System.out.println("A");
-            }else{
-                System.out.println("B");
-            }
-        }else if(amath > bmath){
+
+        if(amath > bmath || (amath == bmath && aeng > beng)){
             System.out.println("A");
         }else{
             System.out.println("B");

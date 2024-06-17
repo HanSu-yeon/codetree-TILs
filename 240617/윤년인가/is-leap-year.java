@@ -11,7 +11,7 @@ public class Main {
             System.out.println("true");
         }else{
             //평년
-            System.out.prinln("false");
+            System.out.println("false");
         }
     }
 }

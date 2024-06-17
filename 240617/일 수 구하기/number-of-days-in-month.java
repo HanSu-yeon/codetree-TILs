@@ -7,7 +7,7 @@ public class Main {
         int n = sc.nextInt();
         if(n==2){
             System.out.println("28");
-        }else if(n==1 || n==3 || n==5|| n==7|| n==8|| n==9|| n==11 ){
+        }else if(n==1 || n==3 || n==5|| n==7|| n==8|| n==11 ){
             System.out.println("31");
         }else{
             System.out.println("30");

@@ -8,14 +8,14 @@ public class Main {
         int age = sc.nextInt();
 
         if(sex==0){
-            if(age>=20){
+            if(age>=19){
                 System.out.println("MAN");
             }else{
                 System.out.println("BOY");
             }
         }else if(sex==1){
 
-            if(age>=20){
+            if(age>=19){
                 System.out.println("WOMAN");
             }else{
                 System.out.println("GIRL");

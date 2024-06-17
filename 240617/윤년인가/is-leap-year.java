@@ -5,10 +5,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         
         int y = sc.nextInt();
+        //200 -> false
 
-        if(y%4==0 || (y%100!=0 && y%400==0)){
+        if(y%4==0 ){
             //윤년
-            System.out.println("true");
+            if(y%100==0 && y%400!=0){
+                System.out.println("false");
+                
+            }else{
+                System.out.println("true");
+            }
         }else{
             //평년
             System.out.println("false");

@@ -7,10 +7,8 @@ function f(n){
     if(n === 1){
         return 1
     }
-    if(n % 2 === 0){
+    if(n===2) return 2
         return f(n-2)+n
-    }else{
-        return f(n-2)+n
-    }
+
 }
 console.log(f(n))

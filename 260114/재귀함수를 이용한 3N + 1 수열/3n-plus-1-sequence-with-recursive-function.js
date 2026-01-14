@@ -10,7 +10,7 @@ function f(n) {
     }
 
     if (n % 2 === 0) {
-        return f(parseInt(n / 2) + 1)
+        return f(n / 2) + 1
     } else {
         return f(3 * n + 1) + 1
     }

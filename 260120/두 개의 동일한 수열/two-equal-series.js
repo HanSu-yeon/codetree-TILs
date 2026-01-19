@@ -9,11 +9,17 @@ const b = input[2].trim().split(' ').map(Number);
 a.sort((a, b)=>a-b)
 b.sort((a,b) =>a-b)
 
-for(let i =0; i<=n; i++){
+function compare(a, b){
+    for(let i =0; i<=n; i++){
     if(a[i] !==  b[i]) {
-        console.log("No")
-        return
+      
+        return "No"
     }
-    console.log("Yes")
-    return
+ 
+    return "Yes"
+    }
+
 }
+
+
+console.log(compare(a, b))

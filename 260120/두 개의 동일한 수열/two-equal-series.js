@@ -11,4 +11,6 @@ b.sort((a,b) =>a-b)
 
 for(let i =0; i<=n; i++){
     if(a[i] !==  b[i]) return "No"
+    
+    console.log("Yes")
 }

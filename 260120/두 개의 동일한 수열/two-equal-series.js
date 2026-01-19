@@ -6,20 +6,25 @@ const a = input[1].trim().split(' ').map(Number);
 const b = input[2].trim().split(' ').map(Number);
 
 // Please Write your code here.
-a.sort((a, b)=>a-b)
-b.sort((a,b) =>a-b)
 
-function compare(a, b){
-    for(let i =0; i<=n; i++){
-    if(a[i] !==  b[i]) {
-      
-        return "No"
-    }
- 
-    return "Yes"
+function equl(a, b) {
+    for (let i = 0; i < n; i++) {
+        if (a[i] !== b[i]) {
+
+            return false
+        }
+        return true
     }
 
 }
 
 
-console.log(compare(a, b))
+a.sort((a, b) => a - b)
+b.sort((a, b) => a - b)
+
+if(equal()){
+    console.log("Yes")
+}else{
+    console.log("No")
+    
+}

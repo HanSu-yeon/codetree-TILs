@@ -7,3 +7,8 @@ const b = input[2].trim().split(' ').map(Number);
 
 // Please Write your code here.
 a.sort((a, b)=>a-b)
+b.sort((a,b) =>a-b)
+
+for(let i =0; i<=n; i++){
+    if(a[i] !==  b[i]) return "No"
+}

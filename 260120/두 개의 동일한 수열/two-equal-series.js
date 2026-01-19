@@ -10,7 +10,10 @@ a.sort((a, b)=>a-b)
 b.sort((a,b) =>a-b)
 
 for(let i =0; i<=n; i++){
-    if(a[i] !==  b[i]) return "No"
-    
+    if(a[i] !==  b[i]) {
+        console.log("No")
+        return
+    }
     console.log("Yes")
+    return
 }

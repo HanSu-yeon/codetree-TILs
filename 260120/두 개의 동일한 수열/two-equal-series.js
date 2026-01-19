@@ -7,7 +7,7 @@ const b = input[2].trim().split(' ').map(Number);
 
 // Please Write your code here.
 
-function equl(a, b) {
+function equal(a, b) {
     for (let i = 0; i < n; i++) {
         if (a[i] !== b[i]) {
 
@@ -22,9 +22,9 @@ function equl(a, b) {
 a.sort((a, b) => a - b)
 b.sort((a, b) => a - b)
 
-if(equal()){
+if (equal()) {
     console.log("Yes")
-}else{
+} else {
     console.log("No")
-    
+
 }
